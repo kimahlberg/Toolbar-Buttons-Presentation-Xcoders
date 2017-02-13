@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B12FFD41C0FB13D007DAB7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B12FFD31C0FB13D007DAB7E /* main.m */; };
+		3B12FFD71C0FB13D007DAB7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B12FFD61C0FB13D007DAB7E /* AppDelegate.m */; };
+		3B12FFDA1C0FB13D007DAB7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B12FFD91C0FB13D007DAB7E /* ViewController.m */; };
+		3B12FFDD1C0FB13D007DAB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B12FFDB1C0FB13D007DAB7E /* Main.storyboard */; };
+		3B12FFDF1C0FB13D007DAB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B12FFDE1C0FB13D007DAB7E /* Assets.xcassets */; };
+		3B12FFE21C0FB13D007DAB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B12FFE01C0FB13D007DAB7E /* LaunchScreen.storyboard */; };
+		3BCB66161D8E12F400D559CB /* UIImage+TintedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCB66151D8E12F400D559CB /* UIImage+TintedImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B12FFCF1C0FB13D007DAB7E /* Animated Toolbar Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Toolbar Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B12FFD31C0FB13D007DAB7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B12FFD51C0FB13D007DAB7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B12FFD61C0FB13D007DAB7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B12FFD81C0FB13D007DAB7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B12FFD91C0FB13D007DAB7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B12FFDC1C0FB13D007DAB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B12FFDE1C0FB13D007DAB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B12FFE11C0FB13D007DAB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B12FFE31C0FB13D007DAB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BCB66141D8E12F400D559CB /* UIImage+TintedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintedImage.h"; sourceTree = "<group>"; };
+		3BCB66151D8E12F400D559CB /* UIImage+TintedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintedImage.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B12FFCC1C0FB13D007DAB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B12FFC61C0FB13D007DAB7E = {
+			isa = PBXGroup;
+			children = (
+				3B12FFD11C0FB13D007DAB7E /* Animated Toolbar Button */,
+				3B12FFD01C0FB13D007DAB7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B12FFD01C0FB13D007DAB7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B12FFCF1C0FB13D007DAB7E /* Animated Toolbar Button.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B12FFD11C0FB13D007DAB7E /* Animated Toolbar Button */ = {
+			isa = PBXGroup;
+			children = (
+				3BC2396B1C1619C400FE9F35 /* Extensions */,
+				3B12FFD51C0FB13D007DAB7E /* AppDelegate.h */,
+				3B12FFD61C0FB13D007DAB7E /* AppDelegate.m */,
+				3B12FFD81C0FB13D007DAB7E /* ViewController.h */,
+				3B12FFD91C0FB13D007DAB7E /* ViewController.m */,
+				3B12FFDB1C0FB13D007DAB7E /* Main.storyboard */,
+				3B12FFDE1C0FB13D007DAB7E /* Assets.xcassets */,
+				3B12FFE01C0FB13D007DAB7E /* LaunchScreen.storyboard */,
+				3B12FFE31C0FB13D007DAB7E /* Info.plist */,
+				3B12FFD21C0FB13D007DAB7E /* Supporting Files */,
+			);
+			path = "Animated Toolbar Button";
+			sourceTree = "<group>";
+		};
+		3B12FFD21C0FB13D007DAB7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B12FFD31C0FB13D007DAB7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BC2396B1C1619C400FE9F35 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3BCB66141D8E12F400D559CB /* UIImage+TintedImage.h */,
+				3BCB66151D8E12F400D559CB /* UIImage+TintedImage.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B12FFCE1C0FB13D007DAB7E /* Animated Toolbar Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B12FFE61C0FB13D007DAB7E /* Build configuration list for PBXNativeTarget "Animated Toolbar Button" */;
+			buildPhases = (
+				3B12FFCB1C0FB13D007DAB7E /* Sources */,
+				3B12FFCC1C0FB13D007DAB7E /* Frameworks */,
+				3B12FFCD1C0FB13D007DAB7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animated Toolbar Button";
+			productName = "Animated Toolbar Button";
+			productReference = 3B12FFCF1C0FB13D007DAB7E /* Animated Toolbar Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B12FFC71C0FB13D007DAB7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kim Ahlberg";
+				TargetAttributes = {
+					3B12FFCE1C0FB13D007DAB7E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B12FFCA1C0FB13D007DAB7E /* Build configuration list for PBXProject "Animated Toolbar Button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B12FFC61C0FB13D007DAB7E;
+			productRefGroup = 3B12FFD01C0FB13D007DAB7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B12FFCE1C0FB13D007DAB7E /* Animated Toolbar Button */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B12FFCD1C0FB13D007DAB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B12FFE21C0FB13D007DAB7E /* LaunchScreen.storyboard in Resources */,
+				3B12FFDF1C0FB13D007DAB7E /* Assets.xcassets in Resources */,
+				3B12FFDD1C0FB13D007DAB7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B12FFCB1C0FB13D007DAB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B12FFDA1C0FB13D007DAB7E /* ViewController.m in Sources */,
+				3BCB66161D8E12F400D559CB /* UIImage+TintedImage.m in Sources */,
+				3B12FFD71C0FB13D007DAB7E /* AppDelegate.m in Sources */,
+				3B12FFD41C0FB13D007DAB7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B12FFDB1C0FB13D007DAB7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B12FFDC1C0FB13D007DAB7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B12FFE01C0FB13D007DAB7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B12FFE11C0FB13D007DAB7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B12FFE41C0FB13D007DAB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B12FFE51C0FB13D007DAB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B12FFE71C0FB13D007DAB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Animated Toolbar Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theevilboss.Animated-Tinted-Toolbar-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3B12FFE81C0FB13D007DAB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Animated Toolbar Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theevilboss.Animated-Tinted-Toolbar-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B12FFCA1C0FB13D007DAB7E /* Build configuration list for PBXProject "Animated Toolbar Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B12FFE41C0FB13D007DAB7E /* Debug */,
+				3B12FFE51C0FB13D007DAB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B12FFE61C0FB13D007DAB7E /* Build configuration list for PBXNativeTarget "Animated Toolbar Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B12FFE71C0FB13D007DAB7E /* Debug */,
+				3B12FFE81C0FB13D007DAB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B12FFC71C0FB13D007DAB7E /* Project object */;
+}
